@@ -281,7 +281,7 @@ public class TopActivity extends ActionBarActivity {
 
         List<RSS> list = new ArrayList<RSS>();
 
-        String regex = "[0-9]{8}_([0-9]{3})([0-9]{3}).html";
+        String regex = "([0-9]{4})([0-9]{3}).html";
         Pattern p = Pattern.compile(regex);
         Matcher m;
 
